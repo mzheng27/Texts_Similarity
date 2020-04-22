@@ -1,15 +1,16 @@
 # Texts_Similarity
-Use python to compare the stems, sentence length, use of punctuates in text files to judge if a piece a text is more likely to belong to some source file based on their similarity score. 
+   Use python to compare the stems, sentence length, use of punctuates in text files to judge if a piece a text is more likely to belong to some source file based on their similarity score. 
 
-When testing the model, my partner Yunan and I create source1, 'JKR,' from four passages by J.K.Rowling, and source2, 'NYT,' for the four passages from the New York Times. These eight passages in total set up our source bodies. 
+   When testing the model, my partner Yunan and I create source1, 'JKR,' from four passages by J.K.Rowling, and source2, 'NYT,' for the four passages from the New York Times. These eight passages in total set up our source bodies. 
 
-To set up the comparison, we uses the two left-out passages, one from J.K.Rowling, and one from the New York Times. In addition, we had a short story, called 'tale' by Minglan (this is written in poetry style, and every two consecutive lines rhym), and a news story written for CO201 class by Yunan. We wanted to compare these four passages as the new texts against with the source bodies we set up.
+   To set up the comparison, we uses the two left-out passages, one from J.K.Rowling, and one from the New York Times. In addition, we had a short story, called 'tale' by Minglan (this is written in poetry style, and every two consecutive lines rhym), and a news story written for CO201 class by Yunan. We wanted to compare these four passages as the new texts against with the source bodies we set up.
 
-The results we've got show that this program's accuracy. The NYT_leftout has higher similarity scores with NYT; JKR_leftout with JKR. The "Tale" written in short verse and old-fashion/formal tone has a higher similarity score with New York Times, so does the news story written by Yunan.
+   The results we've got show that this program's accuracy. The NYT_leftout has higher similarity scores with NYT; JKR_leftout with JKR. The "Tale" written in short verse and old-fashion/formal tone has a higher similarity score with New York Times, so does the news story written by Yunan.
 
 
 
 >> Below is the exact results:
+
 scores for JKR: [-11623.777, -3571.47, -11407.804, -307.164, -953.305]
 scores for NYT: [-11310.747, -3537.345, -11181.389, -312.843, -552.136]
 tale is more likely to have come from NYT
