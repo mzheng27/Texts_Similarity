@@ -7,7 +7,9 @@ To set up the comparison, we uses the two left-out passages, one from J.K.Rowlin
 
 The results we've got show that this program's accuracy. The NYT_leftout has higher similarity scores with NYT; JKR_leftout with JKR. The "Tale" written in short verse and old-fashion/formal tone has a higher similarity score with New York Times, so does the news story written by Yunan.
 
-Below is the exact results:
+
+
+>> Below is the exact results:
 scores for JKR: [-11623.777, -3571.47, -11407.804, -307.164, -953.305]
 scores for NYT: [-11310.747, -3537.345, -11181.389, -312.843, -552.136]
 tale is more likely to have come from NYT
